@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soft Solutions- Store</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+    <link rel="stylesheet" href="assets/materialize.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="nav-wrapper transparent">
+        <a href="index.html" class="brand-logo">
+            <img src="images/logo_2.jpg" class="responsive-img">
+        </a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons black-text">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li>
+                <a href="index.html" class="black-text">Home</a>
+            </li>
+            <li>
+                <a href="store.html" class="black-text">Store</a>
+            </li>
+            <li>
+                <a href="team.html" class="black-text">Team</a>
+            </li>
+            <li>
+                <a href="order.html" class="btn-floating pulse blue lighten-2">
+                    <i class="material-icons black-text" id="cart">add_shopping_cart</i>
+                </a>
+            </li>
+        </ul>
+        <ul class="sidenav blue lighten-2" id="mobile-menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="store.html">Store</a>
+            </li>
+            <li>
+                <a href="team.html">Team</a>
+            </li>
+            <li>
+                <a href="order.html">
+                    <i class="material-icons" id="cart">add_shopping_cart</i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="parallax-container top">
+        <div class="parallax">
+            <img src="images/6.jpeg" />
+        </div>
+        <h3 class="center blue-text text-darken-4">Soft Solutions
+            <br> Order</h3>
+        <p class="center flow-text blue-text text-darken-4">Order for your Choices here</p>
+    </div>
+
+
+    <section class="container section">
+    <div class="row">
+    <div class="col s12 m6 l6 xl6  offset-l3 offset-xl3">
+    <form id="order-form">
+    <div class="input-field">
+        <i class="material-icons prefix"></i>
+        <input type="text" id="name" name="name" required/>
+        <label for="name">Your name</label>
+    </div>
+
+    <div class="input-field">
+    <i class="material-icons prefix"></i>
+    <input type="number" id="gsm" name="gsm" min="1" required/>
+    <label for="gsm">Your number</label>
+    </div>
+
+    <div class="input-field">
+        <i class="material-icons prefix"></i>
+        <input type="email" id="email" name="email" required />
+        <label for="email">Your email</label>
+    </div>
+
+    <div class="input-field">
+        <i class="material-icons prefix"></i>
+        <textarea id="add" class="materialize-textarea" name="add" required></textarea>
+        <label for="add">Your Address</label>
+    </div>
+
+    <div class="input-field center">
+    <a href="javascript:;" class="btn blue lighten-3 addmore">Add more </a>
+    </div>
+ 
+    <div class="more">
+    <div>   
+    <div class="input-field">
+    <select id="seafood[]" name="seafood[]" class="seafood" required>
+    <option value="" amount="0" selected>Select Products</option>
+    <option value="" amount="0" >Ankara Bags</option>
+    <option value="" amount="0" >Blue Knickers{Shorts}</option>
+    <option value="" amount="0" >Green Knickers{Shorts}</option>
+    </select>
+        <label for="seafood[]" class="select-label">Select product</label>
+    </div>
+
+    <div class="input-field">
+    <input type="number" min="1" name="quantity[]" id="quantity[]" class="quantity" value="0" required />
+    <label for="quantity[]" class="select-label">Select Quantity</label>
+    </div>
+    </div>
+
+
+    </div>
+
+    <div class="input-field">
+        <i class="material-icons prefix"></i>
+        <textarea id="msg" class="materialize-textarea" name="msg"></textarea>
+        <label for="message">Your Message</label>
+    </div>
+    <div class="input-field">
+    <select id="location" name="location" class="location" required>
+        <option value="" amount="0" selected>Select Your Location</option>
+    </select>
+            <label for="location" class="select-label">Select You Location</label>
+    </div>
+    
+    <div class="input-field ceneter">
+         Delivery fee varies with location
+    </div>
+    <div class="input-field">
+    <h3>Total: &#8358;<span class="total">5000</span></h3>
+    </div>
+    <div class="input-field center">
+        <button class="btn blue lighten-3">Submit</button>
+    </div>
+    </form>
+    </div>
+    </div>
+    </section>
+
+    <footer class="page-footer blue lighten-2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Soft Solutions</h5>
+                    <p>Soft Solutions Enterprise is a brand owned by a group of students that has comeforth with ingenious product to make life
+                    easier and better at cheaper prices.
+                    These passionate Students tried to solve such problem by building the platform to help them sell more and become better
+                    Entreprenuers.</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connnect</h5>
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook"></i>
+                            <a href="https://free.facebook.com/softsolutionsps/" class="grey-text text-lighten-3">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+<div class="container center-align">&copy; 2019 Soft Solutions ></div>
+        <div class="container center-align">Powered by &copy;<img src="images/jalogo.jpg" height="50" width="50" alt="JA Nigeria">JA Nigeria</div>
+        </div>
+    </footer>
+    <script src="assets/jquery.js"></script>
+    <script src="assets/materialize.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('select').formSelect();
+        });
+    </script>
+    <script src="assets/work.js"></script>
+<script>
+loadStock();
+loadlocation();
+</script>
+</body>
+
+</html>

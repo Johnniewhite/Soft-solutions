@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soft Solutions - Store</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/materialize.css" />
+</head>
+<body>
+    <!-- navbar -->
+        <nav class="nav-wrapper transparent">
+                <a href="index.html" class="brand-logo"><img src="images/logo.png" class="responsive-img"></a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                   <i class="material-icons black-text">menu</i>
+                </a> 
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html" class="black-text">Home</a></li>
+                    <li>
+                        <a href="store.html" class="blue lighten-2">Store</a>
+                    </li>
+                    <li>
+                    <a href="team.html" class="black-text">Team</a>
+                    </li>
+                    <li>
+                                 <a href="order.html" class="btn-floating pulse blue lighten-2"><i class="material-icons black-text" id="cart">add_shopping_cart</i></a>
+           </li>
+                </ul>
+            <ul class="sidenav blue lighten-2" id="mobile-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="store.html" class="black white-text">Store</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="order.html">
+                        <i class="material-icons" id="cart">add_shopping_cart</i>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+            
+            <div class="parallax-container top">
+                <div class="parallax">
+                    <img src="images/3.jpeg" />
+                </div>
+                    <h3 class="center blue-text text-darken-4"> <br> Store</h3>
+                    <p class="center flow-text blue-text text-darken-4">Check Out Our Ingenious Products </p>
+            </div>
+    
+        
+    <!-- photo / grid -->
+    <section class="container section">
+            <h3 class="center blue-text text-darken-4">New Products</h3>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/blue_short.jpg" class="responsive-image">
+                        </div>
+                        <div class="card-content">
+                            <p><b>Blue Shorts for males different sizes </b></p>
+                        </div>
+                        <div class="card-action" id="Tilapia"></div>
+                    </div>
+                    </div>
+<!-- 
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/blue_short.jpg" class="responsive-image">
+                        </div>
+                        <div class="card-content">
+                            <p><b>Crab</b></p>
+                        </div>
+                        <div class="card-action"></div>
+                    </div>
+                </div> -->
+
+<div class="col s12 m6 l4">
+    <div class="card">
+        <div class="card-image">
+            <img src="images/green_short.jpg" class="responsive-image">
+        </div>
+        <div class="card-content">
+            <p><b>Green Short for males at different sizes</b></p>
+        </div>
+        <div class="card-action" id="green_short"></div>
+    </div>
+</div>
+
+
+<div class="col s12 m6 l4">
+    <div class="card">
+        <div class="card-image">
+            <img src="images/ankara_bag.jpg" class="responsive-image">
+        </div>
+        <div class="card-content">
+            <p><b>Beautiful Ankara Bags For Your Everyday Life</b></p>
+        </div>
+        <div class="card-action" id="ankara_bag"></div>
+    </div>
+</div>
+
+
+        </div>
+    </section>
+
+<footer class="page-footer blue lighten-2">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+                <h5>About Soft Solutions</h5>
+                <p>Soft Solutions Enterprise is a brand owned by a group of students that has comeforth with ingenious product to make life easier and better at cheaper prices. 
+                These passionate Students tried to solve such problem by building the platform to help them sell more and become better Entreprenuers.</p>
+            </div>
+            <div class="col s12 l4 offset-l2">
+                <h5>Connnect</h5>
+                <ul>
+                    <li>
+                            <i class="fab fa-facebook"></i>
+                            <a href="https://free.facebook.com/softsolutionsps/" class="grey-text text-lighten-3">Facebook</a>
+                    </li>
+                    Phone: 08089403940
+                </ul>
+            </div>
+           <em> <p>Please all deliveries will be done within 48hours</p></em>
+        </div>
+    </div>
+   <div class="container center-align">&copy; 2019 Soft Solutions ></div>
+        <div class="container center-align">Powered by &copy;<img src="images/jalogo.jpg" height="50" width="50" alt="JA Nigeria">JA Nigeria</div>
+</footer>
+<script src="assets/jquery.js"></script>
+<script src="assets/materialize.js"></script>
+<script>
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+});
+</script>
+<script src="./assets/work.js"></script>
+<script>
+loadPrices();
+</script>
+
+</body>
+</html>
