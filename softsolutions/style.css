@@ -1,0 +1,62 @@
+ header {
+        background: url(images/beautrifu4.jpg);
+        background-size: auto;
+        background-position: center;
+        height: auto;
+    }
+
+    .section {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+
+    .brand-logo>img {
+        max-height: 65px;
+        padding: 5px;
+    }
+
+    .into {
+        margin: auto;
+        padding: 100px;
+    }
+
+    .into>h3 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    .top {
+        padding: 100px;
+    }
+    .top>.parallax{
+        opacity: 0.6;
+    }
+    .top>h3 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    .into-mobile {
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .into-mobile > h4 {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    #cart {
+        padding: 5px
+    }
+
+    materialboxed {
+        display: block;
+        margin: auto;
+    }
+
+    @media screen and (max-width:670px) {
+        header {
+            max-height: 500px;
+        }
+    }
